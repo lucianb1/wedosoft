@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script src="jquery.min.js" ></script>
+    <script>
+    function sendMessage()
+    {
+        data = $("#messageForm").serializeArray();
+        $.ajax({
+            url:         'http://localhost:8080/contact/message/send',
+            method:      'POST',
+            dataType:    'Json',
+            data:         data,
+            success:      function() { /*doSomething();*/ },
+            error:        function(error) {/*doSomething();*/}
+        });
+    }
+    </script>
+</head>
+<body>
+<form onsubmit="sendMessage()" id="messageForm">
+    Name   : <input type="text" name="name" /> <br />
+    Email  : <input type="text" name="email" /> <br />
+    Dubject: <input type="text" name="subject" /> <br />
+    Message: <input type="text" name="message" /> <br />
+    <input type="submit" value="Send" />
+</form>
+</body>
+</html>
