@@ -1,0 +1,191 @@
+#cv-name {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#cv-role {
+    display: block;
+    font-size: 16px;
+}
+
+.cv-body-container {
+    background-color: #2e2e2e;
+    text-align: center;
+    color: #222222;
+    width: 100%;
+}
+
+.cv-body {
+    height: 900px;
+    display: inline-block;
+    width: 800px;
+    font-size: 0;
+}
+
+.cv-body-left {
+    display: inline-block;
+    width: 28%;
+    background-color: #888;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.cv-body-right {
+    display: inline-block;
+    width: 72%;
+    background-color: #ccc;
+    height: 100%;
+}
+
+#cv-photo {
+    border-radius: 50%;
+    width: 60%;
+    display: block;
+    margin: 30px auto 0;
+    border: 1px solid #888;
+}
+
+.left-item-header {
+    border-bottom: 1px solid #333333;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 6px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.left-items {
+    width: calc(100% - 40px);
+    margin: 20px;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+}
+
+.left-items-icon {
+    width: 16px;
+}
+
+.left-item-value {
+    font-size: 12px;
+}
+
+.cv-title-container {
+    text-align: left;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    padding-bottom: 4px;
+    margin: 40px 0;
+}
+
+.right-panel-container {
+    width: calc(100% - 60px);
+    margin: 0 30px;
+    float: left;
+    text-align: left;
+    font-size: 12px;
+}
+
+.right-panel-container p {
+    line-height: 13px;
+}
+
+.right-panel-group {
+    border-bottom: 1px solid #333;
+    margin-top: 20px;
+    padding-bottom: 12px;
+
+}
+
+.right-panel-group-title {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.experience-container {
+    margin-left: 50px;
+}
+
+.work-container {
+    margin-left: 20px;
+    position: relative;
+    line-height: 16px;
+}
+
+.left-bordered {
+    border-left: 1px solid black;
+}
+
+.first-work {
+    /*border-left: 1px solid black;*/
+}
+
+.work-company {
+    display: block;
+}
+
+.work-job {
+    font-weight: bold;
+    display: block;
+    position: relative;
+}
+
+.work-job:after {
+    content: "";
+    position: absolute;
+    left: -21px;
+    z-index: 100;
+    border-radius: 50%;
+    top: calc(50% - 3px);
+    width: 6px;
+    height: 6px;
+    background: #333;
+}
+
+.tag {
+    height: 14px;
+    position: absolute;
+    left: -64px;
+}
+
+.cv-year {
+    position: absolute;
+    font-size: 11px;
+    color: #ddd;
+    left: -60px;
+    font-weight: bold;
+}
+
+td {
+    width: 50%;
+    position: relative;
+    padding-left: 40px;
+}
+
+th {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+td:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    z-index: 100;
+    border-radius: 50%;
+    top: calc(50% - 2px);
+    width: 4px;
+    height: 4px;
+    background: #333;
+}
+
+table {
+    width: 100%;
+    line-height: 16px;
+}
