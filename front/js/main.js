@@ -231,9 +231,9 @@ jQuery(function($) {'use strict';
 				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success">Thank you for contacting us. We will reply to you as soon as possible.</p>').delay(5000).fadeOut();
+			form_status.html('<p class="text-success" style="position:absolute; top: -34px">Thank you for contacting us. We will reply to you as soon as possible.</p>').delay(5000).fadeOut();
 		}).fail(function(fail){
-            form_status.html('<p class="text-danger">Something did not work. Please contact us directly via email or phone.</p>').delay(5000).fadeOut();
+            form_status.html('<p class="text-danger" style="position:absolute; top: -34px">Something did not work. Please contact us directly via email or phone.</p>').delay(5000).fadeOut();
 		}).always(function() {
             $(':input','#contact-form')
                 .not(':button, :submit, :reset, :hidden')
