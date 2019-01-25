@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 /**
  * Mail Sender service.
  *
- * @author Arpad Sebesi
  */
 @Service
 public interface MailService {

@@ -139,6 +139,7 @@ hr {
     background: #ff641b;
 }
 
+
 .btn {
     border-width: 0;
 }
@@ -146,7 +147,6 @@ hr {
 .btn.btn-primary {
     background: #ff641b;
     border-color: #ff641b;
-    border-radius: 14px;
     transition: background .3s;
     -webkit-transition: background .3s;
     -moz-transition: background .3s;
@@ -374,7 +374,7 @@ ul.nostyle i {
 
 #main-slider .slider-inner .btn {
     box-shadow: 0px 0px 12px #f26522;
-    margin-top: 20px;
+    margin-top: 28px;
     background: transparent;
     border: 2px solid #f26522;
     border-radius: 20px;
@@ -1097,7 +1097,6 @@ ul.nostyle i {
 
 #get-in-touch .btn.btn-primary {
     font-family: 'Roboto-medium';
-    font-size: 20px;
     padding: 8px 50px 6px;
 }
 
@@ -1312,6 +1311,7 @@ ul.nostyle i {
 .form-control {
     box-shadow: none;
     -webkit-box-shadow: none;
+    border-radius: 0;
 }
 
 @media (min-width: 768px) and (max-width: 999px) {

@@ -1,10 +1,10 @@
+server:
+  port: 8080
+  context-path: /api
+
 emails:
   adminAddresses:
     - lucy_baciu_2006@yahoo.com
-    - wedosoft.contact@gmail.com
-    - alex.suciu@wedosoft.eu
-    - arpad.sebesi@wedosoft.eu
-    - lucian.baciu@wedosoft.eu
 
 spring:
   mvc.favicon.enabled: false
@@ -23,12 +23,11 @@ spring:
       org.hibernate.envers.revision_type_field_name: ACTION_TYPE
     show-sql: false
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
     jdbcUrl: jdbc:mysql://localhost:3306/wedosoft?useLegacyDatetimeCode=false&serverTimezone=UTC
     connectionTimeout: 600000
     username: root
-#    password: y3bWYA7m1HjJ1NfmLyaJ
-    passsword:
+    password: root
     maximumPoolSize: 15
     initialize: true
     validation-query: Select 1
@@ -37,8 +36,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: wedosoft.contact@gmail.com
-    password: WeD0Soft_1234
+    username: fmarketapp@gmail.com
+    password: FmarketApp123
     properties.mail.smtp:
       socketFactory.port: 465
       socketFactory.class: javax.net.ssl.SSLSocketFactory

@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
  * Contains database configurations.
  * Also we initialize here the dataSource using the settings from application.yml - spring.datasource
  *
- * @author Arpad Sebesi
  */
 @Configuration
 @ConfigurationProperties(prefix = "spring.datasource")

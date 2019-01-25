@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
 /**
  * Class holding information from the contact page.
  *
- * @author Arpad Sebesi
  */
 @Entity(name = "message")
 public class ContactMessage {

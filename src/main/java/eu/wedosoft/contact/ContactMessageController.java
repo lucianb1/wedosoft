@@ -25,7 +25,6 @@ import static eu.wedosoft.contact.AppConstants.TR;
 /**
  * Controller class for the incoming contact messages.
  *
- * @author Arpad Sebesi
  */
 @RestController
 @RequestMapping(CONTACT_MESSAGE_PATH)

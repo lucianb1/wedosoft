@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 /**
  * Repository for the "message" table.
  *
- * @author Arpad Sebesi
  */
 @Repository
 public interface ContactMessageRepository extends JpaRepository<ContactMessage, Integer> {

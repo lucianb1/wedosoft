@@ -223,7 +223,7 @@ jQuery(function($) {'use strict';
         requestBody[''] = null;
         console.log(requestBody);
 		$.ajax({
-			url: '/contact/message/send',
+			url: '/api/contact/message/send',
 			method: 'POST',
             contentType: "application/json; charset=utf-8",
 			data: JSON.stringify(requestBody),

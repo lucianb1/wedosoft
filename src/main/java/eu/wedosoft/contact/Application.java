@@ -15,7 +15,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 /**
  * Entry pont for the application.
  *
- * @author Arpad Sebesi
  */
 @Configuration
 //@EnableWebMvc
