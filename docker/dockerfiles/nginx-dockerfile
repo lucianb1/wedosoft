@@ -1,0 +1,7 @@
+FROM nginx:alpine
+
+#ADD certs/privkey.pem /internal/certs/privkey.pem
+#ADD certs/fullchain.pem /internal/certs/fullchain.pem
+
+ADD nginx.conf /etc/nginx/nginx.conf
+ADD frontend /internal/frontend
